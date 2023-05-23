@@ -1,5 +1,6 @@
 {
     "manifest_version": 3, 
-    "name": "Email Scraper"
-
+    "description": "Scrape emails from web pages",
+    "name": "Email Scraper",
+    "version": "1.0.1"
 }
