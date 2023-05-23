@@ -14,3 +14,6 @@ scrapeBtn.addEventListener("click", async () => {
 })
 
 // function to scrape emails 
+function scrapeEmailsFromPage() {
+    alert('hi');
+}
