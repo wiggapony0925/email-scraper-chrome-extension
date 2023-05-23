@@ -15,5 +15,14 @@ scrapeBtn.addEventListener("click", async () => {
 
 // function to scrape emails 
 function scrapeEmailsFromPage() {
-    alert('hi');
+    // reg ex to parse emails from the httml code 
+    const emailsRegEx = /[\w\.=-]+@[\w\.=-]+\.[\w\]{2,3}/
+    gim;
+
+    // parse email from the tml of the pag 
+    let emails = document.body.innerHTML.match 
+    (emailsRegEx);
+
+    alert(emails);
+
 }
