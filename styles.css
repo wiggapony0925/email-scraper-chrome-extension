@@ -3,6 +3,9 @@ body {
     color: #fff;
     font-family: Arial, sans-serif;
     min-width: 300px;
+    border: none;
+    padding: 0.8rem 2.5rem;
+    border-radius: 5px;
 }
 
 #content {
@@ -10,9 +13,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center ;
     min-height: 25vh;
 }
-
 h1 {
     font-size: 2rem;
     margin-bottom: 2rem;
