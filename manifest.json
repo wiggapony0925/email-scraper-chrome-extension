@@ -2,5 +2,8 @@
     "manifest_version": 3, 
     "description": "Scrape emails from web pages",
     "name": "Email Scraper",
-    "version": "1.0.1"
+    "version": "1.0.1",
+    "action": {
+        "default_popup": "popup.html"
+    }
 }
